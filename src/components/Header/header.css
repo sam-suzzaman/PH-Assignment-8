@@ -1,0 +1,16 @@
+.header-container{
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.header-container h2{
+    text-transform: uppercase;
+    font-size: calc(1rem + 2vw);
+    color: #4D77FF;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.header-container p{
+    font-size: calc(0.5rem + 0.75vw);
+    text-transform: capitalize;
+    color:#5e5e5e ;
+}

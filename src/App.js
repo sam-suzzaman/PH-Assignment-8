@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
-import fakeData from './utilities/fakeData';
+import React from 'react';
+import Header from './components/Header/Header';
+import Shop from './components/shop/Shop';
 
 function App() {
-  const [data,setData]=useState(fakeData);
-  console.log(data);
-  const {name,image}=data[0];
   return (
     <div>
-      <h2>{name}</h2>
-      <img src={image} alt="" />
+     <Header/>
+     <Shop/>
     </div>
   );
 }
