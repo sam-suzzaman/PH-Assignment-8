@@ -1,0 +1,13 @@
+
+.question{
+    padding: 5rem;
+}
+.question h2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.question p{
+    line-height: 2rem;
+    text-align: justify;
+    font-size: 1.15rem;
+}
