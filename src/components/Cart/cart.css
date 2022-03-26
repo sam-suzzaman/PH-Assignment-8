@@ -4,10 +4,7 @@
     justify-content: space-between;
     margin-top: 15px;
 }
-.cart .left{
-    display: flex;
-    align-items: center;
-}
+
 .cart h3{
     font-size: calc(0.75rem + 0.5vw);
     margin-left: 10px;
@@ -21,12 +18,4 @@
 .img-container img{
     width: 100%;
     border-radius: 50%;
-}
-
-.cart button{
-    color: #4D77FF;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    background-color: transparent;
 }

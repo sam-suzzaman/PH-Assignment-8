@@ -2,8 +2,6 @@
     padding: 1rem;
     border-radius: 5px;
     background-color: #fff;
-    height: calc( 20rem + 20vh);
-    position: relative;
     transition: all 0.3s linear;
 }
 .product:hover{
@@ -30,20 +28,18 @@
 }
 
 .product button{
+    margin-top: 3rem;
+    margin-bottom: 0;
     border: none;
     outline: none;
- position: absolute;
- bottom: 0;
- left: 0;
- background-color: black;
- width: 100%;
- padding: 0.5rem;
- color: #fff;
- font-size: 1rem;
- text-transform: capitalize;
- font-weight: 600;
- cursor: pointer;
- transition: all 0.2s ease-in;
+    background-color: black;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
 }
 
 .product button:hover{
